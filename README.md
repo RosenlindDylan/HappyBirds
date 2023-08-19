@@ -1,0 +1,1 @@
+Angry birds type game because I miss java a bit, gonna try a swing gui
