@@ -8,8 +8,9 @@ public class Bird {
         bird.add(0.0);
     }
 
-    public void getCords() {
-        System.out.println("The bird is at " + bird.get(0) + "," + bird.get(1));
+    // returns string describing where bird is currently located at
+    public String getCords() {
+        return ("(" + bird.get(0) + "," + bird.get(1) + ")");
     }
 
     // update the bird cords
