@@ -1,21 +1,25 @@
 import java.util.ArrayList;
 
 public class Bird {
-    private ArrayList<Double> bird;
+
+    private double x;
+    private double y;
+
+    // Creates a Happy Bird with default coordinates (0.0, 0.0)
     public Bird() {
-        bird = new ArrayList<>(); 
-        bird.add(0.0);
-        bird.add(0.0);
+        x = 0.0;
+        y = 0.0;
     }
 
-    // returns string describing where bird is currently located at
+    // returns a string describing where bird is currently located in
+    // the format (x, y) rounded to 2 decimal places each
     public String getCords() {
-        return ("(" + bird.get(0) + "," + bird.get(1) + ")");
+        return String.format("(%.2f, %.2f)", x, y);
     }
 
-    // update the bird cords
+    // updates the bird cords
     public void updateCords(double x, double y) {
-        bird.set(0,x);
-        bird.set(1,y);
+        this.x = x;
+        this.y = y;
     }
 }
