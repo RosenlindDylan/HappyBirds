@@ -1,1 +1,1 @@
-Angry birds type game because I miss java a bit, gonna try a swing gui
+Angry birds inspired game in Java with Swing GUI. Currently in progress. Group project by @RosenlindDylan @jacobjuras @HandTravis @bradensams
