@@ -1,6 +1,7 @@
+import javax.swing.*;
 import java.util.Scanner;
 
-public class PlayGame {
+public class PlayGame extends JPanel {
 
     public static boolean[][] environment;
     private static Bird bird;
@@ -75,12 +76,6 @@ public class PlayGame {
 
     public void getCords() {
         bird.getCords();
-    }
-
-
-    public static void main(String[] args) {
-        PlayGame game = new PlayGame();
-        game.fire(30, 20);
     }
 
 }
