@@ -9,6 +9,7 @@ public class PlayGame extends JPanel {
     // later constants for env?
 
     // Constructor
+    // MongBeef
     public PlayGame() {
         environment = new boolean[100][100]; 
         bird = new Bird();
