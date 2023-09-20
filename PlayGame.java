@@ -26,7 +26,7 @@ public class PlayGame {
             // prolly catch a non integer exception up here?
             aimAngle = Integer.parseInt(input.nextLine());
             // regex check instead for AN
-       }
+        }
        
        // while something, update tick time and call path
 
